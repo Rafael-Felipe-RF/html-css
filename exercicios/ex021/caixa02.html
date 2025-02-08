@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>group tag's</title>
+    <style>
+        nav{
+            background-image: linear-gradient( #29D259, #3DA75B, #427D53, #395241);
+            padding: 3px;  
+            margin: 5px;  
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.616);       
+            
+        }
+
+        nav > a{
+            margin: 30px;
+            text-decoration: none;
+            color: white;
+            
+        }
+
+        nav > a:hover{
+            background-color: white;
+            color: black;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.616);
+            border-radius: 0px 20px;
+        }
+
+        body{
+            background-color: aqua;
+            margin: 0px;
+            
+        }
+
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.616);
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 5px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola{
+            background-color: rgb(15, 7, 7);
+            width: 300px;
+            height: 300px;
+           
+            border-radius: 50%;
+            position: relative;
+            
+        }
+        #bola-m{
+            background-color: white;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #numero{
+            color: black;
+            align-items: center;
+            font-size: 150px; 
+            position: absolute;
+            top: -48%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        #bola-p{
+            border: 5px solid rgb(7, 7, 7);
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam odio consequuntur delectus, magni et, nemo beatae eveniet quo hic soluta repudiandae dignissimos neque repellendus? Nemo molestias pariatur quasi repellendus.</p>
+                <aside>Esctiro por José Bezerra</aside>
+            </article>
+        </section>
+
+
+    </main>
+
+
+
+
+    <footer>
+        <p>Desenvolvido por Rafael Felipe</p>
+    </footer>
+
+    <div id="bola">
+        <div id="bola-m">
+            <div id="bola-p"></div><p id="numero">8</p></div>
+    </div>
+    
+</body>
+</html>
